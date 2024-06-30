@@ -232,7 +232,6 @@ Solo debería detectar un archivo **.cc**
 ### Si creaste un build
 
 ~~~
-
 cd Release
 cd bin
 NombreDelArchivo.exe
