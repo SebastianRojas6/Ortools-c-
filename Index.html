@@ -827,10 +827,8 @@
         <li>Visual Studio (Enterprise/Community 2022/Enterprise 2022)</li>
       </ul>
       <h2 id="paso-1">Paso 1:</h2>
-      <p>
-        Ir al repositorio y descargar el proyecto<br />
-        <a href="https://github.com/google/or-tools">Descargar</a>
-      </p>
+      <p>Ir al repositorio y descargar el proyecto</p>
+      <p><a href="https://github.com/google/or-tools">Descargar</a></p>
       <h2 id="paso-2">Paso 2:</h2>
       <blockquote>
         <p>
@@ -860,9 +858,7 @@
 cd build
 </code></pre>
       <h2 id="paso-5">Paso 5:</h2>
-      <p>
-        Buildea el proyecto, ya en la url que tengas debes escribir lo siguiente
-      </p>
+      <p>Buildea el proyecto con:</p>
       <p>
         <code
           >cmake -DCMAKE_BUILD_TYPE=Release
@@ -872,10 +868,14 @@ cd build
       <p><strong>OJO :</strong></p>
       <blockquote>
         <p>
-          Donde esta DCMAKE_PREFIX_PATH = " "<br />
-          Coloca el directorio donde está alojado tu proyecto
+          Donde esta DCMAKE_PREFIX_PATH = " (Aquí debe estar la ruta de tu
+          Ortools) " -S .. -B .
         </p>
       </blockquote>
+      <p>
+        Ese es tu path y es donde se saca las librerías y todo lo que se
+        necesita para buildear un proyecto
+      </p>
       <h2 id="paso-6">Paso 6</h2>
       <p>Compila el proyecto con lo siguiente</p>
       <p>Solo debería detectar un archivo <strong>.cc</strong></p>
@@ -1044,9 +1044,8 @@ cd build
       <p><strong>OJO :</strong></p>
       <blockquote>
         <p>
-          Donde esta DCMAKE_PREFIX_PATH = " "<br />
-          Coloca el directorio donde está alojado
-          <strong>Tu repositorio de Ortools</strong>
+          Donde esta DCMAKE_PREFIX_PATH = " (Aquí debe estar la ruta de tu
+          Ortools) " -S .. -B .
         </p>
       </blockquote>
       <p>

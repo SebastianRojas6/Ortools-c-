@@ -11,6 +11,7 @@ Tutorial by amigo de Cueto.cpp
 ## Paso 1:
 
 Ir al repositorio y descargar el proyecto 
+
 [Descargar](https://github.com/google/or-tools)
 
 ## Paso 2:
@@ -44,13 +45,15 @@ cd build
 
 ## Paso 5:
 
-Buildea el proyecto, ya en la url que tengas debes escribir lo siguiente
+Buildea el proyecto con:
 
 `cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="C:\Users\HP\Desktop\Ortools" -S .. -B .`
 
 **OJO :**
-> Donde esta DCMAKE_PREFIX_PATH = " "
-> Coloca el directorio donde está alojado tu proyecto
+> Donde esta DCMAKE_PREFIX_PATH = " (Aquí debe estar la ruta de tu Ortools) " -S .. -B .
+
+Ese es tu path y es donde se saca las librerías y todo lo que se necesita para buildear un proyecto
+
 
 ## Paso 6
 
@@ -71,7 +74,6 @@ Si no ha aparecido ningún error hasta ahí se debería poder ejecutar el .exe g
 ### Si creaste un build
 
 ~~~
-
 cd Release
 cd bin
 NombreDelArchivo.exe
@@ -214,8 +216,7 @@ Buildea el proyecto, ya en la url que tengas debes escribir lo siguiente
 `cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="C:\Users\HP\Desktop\Ortools" -S .. -B .`
 
 **OJO :**
-> Donde esta DCMAKE_PREFIX_PATH = " "
-> Coloca el directorio donde está alojado **Tu repositorio de Ortools** 
+> Donde esta DCMAKE_PREFIX_PATH = " (Aquí debe estar la ruta de tu Ortools) " -S .. -B .
 
 Ese es tu path y es donde se saca las librerías y todo lo que se necesita para buildear un proyecto
 
