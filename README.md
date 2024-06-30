@@ -1,11 +1,12 @@
 # Configurar un proyecto en Ortools usando VS
 
-Oh ayuden con el back pe
+Tutorial by amigo de Cueto.cpp
 
 ## Requisitos
 
 - MinGW (U otro compilador de c++)
-- Cmake (Se necesita instalar de manera nativa)
+- Cmake (Se necesita instalar en el path)
+- Visual Studio (Enterprise/Community 2022/Enterprise 2022)
 
 ## Paso 1:
 
@@ -18,6 +19,8 @@ Ir al repositorio y descargar el proyecto
 Ejecutar todo con el símbolo de sistema de herramientas nativas x64 (no el símbolo de desarrolladores)
 
 En este tutorial se usará el **MinGW Command Prompt** 
+
+![MinGW](img/MinGW.png)
 
 Entra a la carpeta de Ortools
 
@@ -80,7 +83,7 @@ NombreDelArchivo.exe
 
 ---
 
-## Usar las librerías de ortools a conveniencia
+# Usar las librerías de ortools a conveniencia
 
 Para crear y usar las librerías del ortools a conveniencia es necesario que crees una carpeta con lo siguiente
 
@@ -191,6 +194,8 @@ Entra a la carpeta que tengas
 Ejecutar todo con el símbolo de sistema de herramientas nativas x64 (no el símbolo de desarrolladores)
 
 En este tutorial se usará el **MinGW Command Prompt** 
+
+![MinGW](img/MinGW.png)
 
 
 ## Paso 2 (Opcional)
