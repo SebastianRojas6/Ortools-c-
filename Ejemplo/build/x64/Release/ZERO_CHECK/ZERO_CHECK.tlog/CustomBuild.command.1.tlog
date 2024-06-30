@@ -1,0 +1,10 @@
+^C:\USERS\HP\DESKTOP\EJEMPLO\BUILD\CMAKEFILES\94C53E59B8B057205D7822DDF895F3D3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\cmake-3.29.3-windows-x86_64\bin\cmake.exe" -SC:/Users/HP/Desktop/Ejemplo -BC:/Users/HP/Desktop/Ejemplo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/HP/Desktop/Ejemplo/build/Ejemplo1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
