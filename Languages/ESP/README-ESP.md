@@ -21,7 +21,7 @@ Ejecutar todo con el símbolo de sistema de herramientas nativas x64 (no el sím
 
 En este tutorial se usará el **MinGW Command Prompt** 
 
-![MinGW](img/MinGW.png)
+![MinGW](../../img/MinGW.png)
 
 Entra a la carpeta de Ortools
 
@@ -65,7 +65,7 @@ Solo debería detectar un archivo **.cc**
 
 Ejemplo: 
 
-![cc](/img/cc.png)
+![cc](../../img/cc.png)
 
 ## Paso 7
 
@@ -81,7 +81,7 @@ NombreDelArchivo.exe
 
 ### Resultado:
 
-![Resultado](/img/image.png)
+![Resultado](../../img/image.png)
 
 ---
 
@@ -197,7 +197,7 @@ Ejecutar todo con el símbolo de sistema de herramientas nativas x64 (no el sím
 
 En este tutorial se usará el **MinGW Command Prompt** 
 
-![MinGW](img/MinGW.png)
+![MinGW](../../img/MinGW.png)
 
 
 ## Paso 2 (Opcional)
